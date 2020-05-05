@@ -1,21 +1,21 @@
 {
   "schemaVersion": 1,
-  "id": "recipeimprover",
+  "id": "recipe_improver",
   "version": "1.0.0",
 
   "name": "Recipe Improver",
   "description": "This mods allows you to remove recipes and have smelting recipes output an item count.",
   "authors": ["Anton Lilja"],
   "contact": {
-    "homepage": "https://github.com/signekatt/recipeimprover",
-    "sources": "https://github.com/signekatt/recipeimprover.git"
+    "homepage": "https://github.com/signekatt/recipe_improver",
+    "sources": "https://github.com/signekatt/recipe_improver.git"
   },
 
   "license": "MIT",
-  "icon": "assets/recipeimprover/icon.png",
+  "icon": "assets/recipe_improver/icon.png",
 
   "environment": "*",
-  "mixins": ["recipeimprover.mixins.json"],
+  "mixins": ["recipe_improver.mixins.json"],
 
   "depends": {
     "fabricloader": ">=0.8.2",
