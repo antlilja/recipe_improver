@@ -22,7 +22,7 @@ File: datapackname/data/minecraft/recipes/iron_ingot.json
 File: datapackname/data/minecraft/recipes/iron_ingot_blasting.json
 ```json
 {
-    "type": "minecraft:smelting",
+    "type": "minecraft:blasting",
     "ingredient": { "item": "minecraft:iron_ore" },
     "result": "minecraft:iron_ingot",
     "count": 2
