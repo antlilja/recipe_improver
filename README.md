@@ -19,7 +19,7 @@ File: datapackname/data/minecraft/recipes/iron_ingot.json
 ```
 
 ### Adding double iron ingot output from blast furnace:
-File: datapackname/data/minecraft/recipes/iron_ingot_blasting.json
+File: datapackname/data/minecraft/recipes/iron_ingot_from_blasting.json
 ```json
 {
     "type": "minecraft:blasting",
