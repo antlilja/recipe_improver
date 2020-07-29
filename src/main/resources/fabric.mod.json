@@ -1,7 +1,7 @@
 {
   "schemaVersion": 1,
   "id": "recipe_improver",
-  "version": "1.0.0",
+  "version": "1.1.0",
 
   "name": "Recipe Improver",
   "description": "This mods allows you to remove recipes and have smelting recipes output an item count.",
