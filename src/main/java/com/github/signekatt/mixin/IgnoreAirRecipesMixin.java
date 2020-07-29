@@ -10,6 +10,11 @@ import net.minecraft.recipe.Recipe;
 @Mixin(Recipe.class)
 public interface IgnoreAirRecipesMixin<C extends Inventory> {
 
+    /**
+     * @reason ModifyConstant can't be used on interfaces :(
+     * 
+     * @author signekatt (Anton Lilja)
+     */
     @SuppressWarnings("unchecked")
     @Overwrite
     default boolean isIgnoredInRecipeBook() {
