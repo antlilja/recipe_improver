@@ -8,6 +8,7 @@ To remove vanilla recipes you create a recipe json file in the minecraft namespa
 To add smelting, blasting or cooking recipes that output multiple items you create a "count" field with the desired value in the recipe file.
  
 ## Examples:
+## 1.17:
 ### Removing iron ingot recipe from furnace:
 File: datapackname/data/minecraft/recipes/iron_ingot.json
 ```json
@@ -20,6 +21,27 @@ File: datapackname/data/minecraft/recipes/iron_ingot.json
 
 ### Adding double iron ingot output from blast furnace:
 File: datapackname/data/minecraft/recipes/iron_ingot_from_blasting_iron_ore.json
+```json
+{
+    "type": "minecraft:blasting",
+    "ingredient": { "item": "minecraft:iron_ore" },
+    "result": "minecraft:iron_ingot",
+    "count": 2
+}
+```
+## 1.16.x:
+### Removing iron ingot recipe from furnace:
+File: datapackname/data/minecraft/recipes/iron_ingot.json
+```json
+{
+    "type": "minecraft:smelting",
+    "ingredient": { "item": "minecraft:iron_ore" },
+    "result": "minecraft:air"
+}
+```
+
+### Adding double iron ingot output from blast furnace:
+File: datapackname/data/minecraft/recipes/iron_ingot_from_blasting.json
 ```json
 {
     "type": "minecraft:blasting",
