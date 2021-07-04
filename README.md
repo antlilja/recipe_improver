@@ -13,13 +13,13 @@ File: datapackname/data/minecraft/recipes/iron_ingot.json
 ```json
 {
     "type": "minecraft:smelting",
-    "ingredient": { "item": "minecraft:air" },
+    "ingredient": { "item": "minecraft:iron_ore" },
     "result": "minecraft:air"
 }
 ```
 
 ### Adding double iron ingot output from blast furnace:
-File: datapackname/data/minecraft/recipes/iron_ingot_from_blasting.json
+File: datapackname/data/minecraft/recipes/iron_ingot_from_blasting_iron_ore.json
 ```json
 {
     "type": "minecraft:blasting",
